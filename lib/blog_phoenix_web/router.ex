@@ -19,6 +19,12 @@ defmodule BlogPhoenixWeb.Router do
     get "/", PageController, :index
   end
 
+  scope "/demo", BlogPhoenixWeb do
+    pipe_through :browser
+
+    get "/login", DemoController, :login
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", BlogPhoenixWeb do
   #   pipe_through :api
