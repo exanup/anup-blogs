@@ -14,7 +14,7 @@
         <nav class="navbar">
           <div class="navbar-brand">
             <a class="navbar-item" href="/demo/home">
-              <h1 class="title is-4">Anup Blogs</h1>
+              <h1 class="brand-title title is-4">Anup Blogs</h1>
             </a>
             <div class="navbar-burger burger" data-target="navbarMain">
               <span></span>
