@@ -1,0 +1,13 @@
+<main class="content">
+  <article>
+    <header>
+      <h3>
+        <a href="">Pure functions? This is why.</a>
+      </h3>
+      <small>
+        August 14, 2020 • 5 min read
+      </small>
+    </header>
+    <p>Pure functions are genius. Keep yourself sane.</p>
+  </article>
+</main>
