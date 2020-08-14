@@ -1,13 +1,49 @@
 <main class="content">
-  <article>
+  <article class="mb-6">
     <header>
       <h3>
-        <a href="">Pure functions? This is why.</a>
+        <a class="title has-text-primary" href="">Pure functions? This is why.</a>
       </h3>
       <small>
         August 14, 2020 • 5 min read
       </small>
     </header>
-    <p>Pure functions are genius. Keep yourself sane.</p>
+    <p class="subtitle is-5">Pure functions are genius. Keep yourself sane.</p>
+  </article>
+
+  <article class="mb-6">
+    <header>
+      <h3>
+        <a class="title has-text-primary" href="">Pure functions? This is why.</a>
+      </h3>
+      <small>
+        August 14, 2020 • 5 min read
+      </small>
+    </header>
+    <p class="subtitle is-5">Pure functions are genius. Keep yourself sane.</p>
+  </article>
+
+  <article class="mb-6">
+    <header>
+      <h3>
+        <a class="title has-text-primary" href="">Pure functions? This is why.</a>
+      </h3>
+      <small>
+        August 14, 2020 • 5 min read
+      </small>
+    </header>
+    <p class="subtitle is-5">Pure functions are genius. Keep yourself sane.</p>
+  </article>
+
+  <article class="mb-6">
+    <header>
+      <h3>
+        <a class="title has-text-primary" href="">Pure functions? This is why.</a>
+      </h3>
+      <small>
+        August 14, 2020 • 5 min read
+      </small>
+    </header>
+    <p class="subtitle is-5">Pure functions are genius. Keep yourself sane.</p>
   </article>
 </main>

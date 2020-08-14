@@ -1,5 +1,13 @@
+// * {
+//   outline: 1px solid hsl(0deg, 100, 90);
+// }
+
 .page-wrapper {
   max-width: 768px;
   height: 100vh;
   margin: 0 auto;
+}
+
+.inner-content {
+  padding: 12px;
 }

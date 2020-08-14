@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog App Name</title>
+  <title>Anup Blogs — A blog by Anup Dhakal</title>
   <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
 </head>
 <body>
   <div class="page-wrapper">
-    <section>
+    <section class="mt-6 mb-4">
       <header>
         <nav class="navbar">
           <div class="navbar-brand">
             <a class="navbar-item" href="/demo/home">
-              <h1 class="title is-4">Blog App Name</h1>
+              <h1 class="title is-4">Anup Blogs</h1>
             </a>
             <div class="navbar-burger burger" data-target="navbarMain">
               <span></span>
@@ -37,7 +37,7 @@
       </header>
     </section>
 
-    <section class="mt-4 mb-4">
+    <section class="mb-4 inner-content">
       <%= @inner_content %>
     </section>
 
