@@ -12,7 +12,7 @@
     <header>
       <nav class="navbar">
         <div class="navbar-brand">
-          <a class="navbar-item" href="/">
+          <a class="navbar-item" href="/demo/home">
             <h1 class="title is-4">Blog App Name</h1>
           </a>
           <div class="navbar-burger burger" data-target="navbarMain">
@@ -24,11 +24,13 @@
 
         <div id="navbarMain" class="navbar-menu">
           <div class="navbar-end">
+            <a class="navbar-item" href="/demo/signup">
+              Sign Up
+            </a>
             <a class="navbar-item" href="/demo/login">
               Login
             </a>
           </div>
-
         </div>
       </nav>
     </header>

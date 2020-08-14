@@ -23,6 +23,8 @@ defmodule BlogPhoenixWeb.Router do
     pipe_through :browser
 
     get "/login", DemoController, :login
+    get "/signup", DemoController, :signup
+    get "/home", DemoController, :home
   end
 
   # Other scopes may use custom stacks.
