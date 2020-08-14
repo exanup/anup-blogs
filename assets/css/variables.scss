@@ -5,3 +5,21 @@ $family-sans-serif: 'Open Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI',
 
 $title-weight: 500;
 $small-font-size: 0.75rem;
+
+$xiketic: hsla(234, 51%, 8%, 1);
+$blue-ncs: hsla(195, 100%, 35%, 1);
+$spanish-blue: hsla(208, 65%, 43%, 1);
+$caribbean-green: hsla(165, 100%, 39%, 1);
+$cadmium-orange: hsla(26, 77%, 54%, 1);
+$sizzling-red: hsla(352, 100%, 62%, 1);
+
+$grey-dark: $blue-ncs;
+$grey-light: $spanish-blue;
+$link: $blue-ncs;
+
+$body-color: $xiketic;
+$primary: $blue-ncs;
+$info: $spanish-blue;
+$success: $caribbean-green;
+$warning: $cadmium-orange;
+$danger: $sizzling-red;
