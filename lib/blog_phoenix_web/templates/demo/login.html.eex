@@ -1,5 +1,5 @@
 <form>
-    <main role="main">
+    <main role="main" class="login-form">
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">

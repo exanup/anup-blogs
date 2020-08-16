@@ -4,7 +4,6 @@
 
 .page-wrapper {
   max-width: 768px;
-  height: 100vh;
   margin: 0 auto;
 }
 
@@ -14,6 +13,12 @@
 
 .inner-content {
   padding: 12px;
+}
+
+.login-form,
+.signup-form {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .is-vcentered {
