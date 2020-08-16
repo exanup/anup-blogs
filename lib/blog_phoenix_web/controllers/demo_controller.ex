@@ -20,7 +20,7 @@ defmodule BlogPhoenixWeb.DemoController do
       path
       |> Path.expand()
       |> File.read!()
-      |> Earmark.as_html!()
+      |> Earmark.as_html!(%Earmark.Options{code_class_prefix: "lang-"})
       |> Phoenix.HTML.raw()
 
     render(conn, "blog.html", content: content)
