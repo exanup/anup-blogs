@@ -12,4 +12,17 @@ defmodule BlogPhoenixWeb.DemoController do
   def home(conn, _params) do
     render(conn, "home.html")
   end
+
+  def blog(conn, _params) do
+    path = "./lib/blog_phoenix_web/templates/demo/blog.md"
+
+    content =
+      path
+      |> Path.expand()
+      |> File.read!()
+      |> Earmark.as_html!()
+      |> Phoenix.HTML.raw()
+
+    render(conn, "blog.html", content: content)
+  end
 end

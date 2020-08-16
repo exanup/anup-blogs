@@ -25,6 +25,7 @@ defmodule BlogPhoenixWeb.Router do
     get "/login", DemoController, :login
     get "/signup", DemoController, :signup
     get "/home", DemoController, :home
+    get "/blog/blog-title", DemoController, :blog
   end
 
   # Other scopes may use custom stacks.
