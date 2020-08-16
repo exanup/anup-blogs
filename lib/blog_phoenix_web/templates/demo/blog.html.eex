@@ -11,3 +11,33 @@
     <%= @content %>
   </article>
 </main>
+
+<div class="mb-5">
+  <a class="brand-title is-size-4" href="/demo/home">
+    Anup Blogs
+  </a>
+</div>
+
+<article class="media mb-6 is-vcentered">
+  <figure class="media-left">
+    <p class="image is-64x64">
+      <img class="is-rounded" src="<%= Routes.static_path(@conn, "/images/me.jpg") %>">
+    </p>
+  </figure>
+  <div class="media-content">
+    <div class="content">
+      <p>
+        By <strong><a href="https://www.linkedin.com/in/exanup">Anup Dhakal</a></strong>
+        <br>
+        They say I am good at explaining stuff.
+      </p>
+    </div>
+  </div>
+</article>
+
+<div class="pt-5 mb-6">
+  <nav class="pagination is-rounded is-centered" role="navigation" aria-label="pagination">
+    <a class="pagination-previous">← Previous Blog</a>
+    <a class="pagination-next">Next Blog →</a>
+  </nav>
+</div>
