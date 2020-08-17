@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "deploy": "webpack --mode production",
+    "profile-build": "webpack --mode production --profile --json > stats.json",
     "watch": "webpack --mode development --watch"
   },
   "dependencies": {
