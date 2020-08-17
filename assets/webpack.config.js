@@ -34,6 +34,10 @@ module.exports = (env, options) => {
           },
         },
         {
+          test: /\.worker\.js$/,
+          use: { loader: 'worker-loader' },
+        },
+        {
           test: /\.[s]?css$/,
           use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
         },
