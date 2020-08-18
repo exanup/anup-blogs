@@ -1,9 +1,9 @@
 import { doubleRaf, nextTick } from './utils';
 
 const init = async () => {
-  const Worker = await import(
-    /* webpackChunkName: "worker-loader" */
-    './main.worker'
+  const HighlightWorker = await import(
+    /* webpackChunkName: "highlight-worker" */
+    './highlight.worker'
   ).then((module) => module.default);
 
   const blocks = document.querySelectorAll('pre code');
@@ -12,7 +12,7 @@ const init = async () => {
     blocks[index].innerHTML = html;
   };
 
-  const worker = new Worker();
+  const worker = new HighlightWorker();
 
   worker.onmessage = (event) => {
     const { index, html } = event.data;
